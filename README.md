@@ -1,17 +1,23 @@
-# Simple Web App Template
+# Prototype: Markdown Editor
 
-Starter web app with HTML, CSS, JavaScript, and development dependencies.
+This is a prototype of a simple Markdown editor.
 
-This template is ideal for learning projects and simple prototypes:
+I enjoy writing in Markdown and wanted to see what would be involved for a basic editor.
+Ideally, it will have a WYSIWYG mode, but realistically it will just have a preview.
 
-- Intended to be easily understood by beginners to web development.
-- Commented configuration files to aid in learning.
-- Minimal dependencies to reduce complexity and abstractions.
+## Scope
 
-This template is not an ideal starting point for most production web apps.
-To encourage learning and reduce abstractions, common dependencies like TypeScript were left out.
-Many common dependencies are useful for preventing bugs, increasing speed of development,
-reducing maintenance requirements, and improving readability.
+ - Parsing raw Markdown text
+
+## Stretch Goals
+
+ - WYSIWIG mode
+ - Create `<markdown-editor>` web component
+
+## Out-of-scope
+
+ - Styling
+ - Edge cases
 
 ## Scripts
 
@@ -58,12 +64,7 @@ Before getting started, you will need [Git] and [Node.js].
 
 ### Instructions
 
-1. If you haven't already, [create a new GitHub repository from this template][generate].
-1. On your machine, open a terminal.
-1. Clone the repository you've created from the template.\
-   Run `git clone <your-repository-url> <some-directory>`
-1. Navigate to the directory where you cloned the repository.\
-   Run `cd <some-directory>`
+1. Clone the repository and open the root directory.
 1. Install dependencies.\
    Run `npm install`
 1. Serve app in development mode.\
