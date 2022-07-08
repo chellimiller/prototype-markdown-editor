@@ -8,6 +8,7 @@ Ideally, it will have a WYSIWYG mode, but realistically it will just have a prev
 ## Scope
 
  - Parsing raw Markdown text
+ - Publishing demo to GitHub pages
 
 ## Stretch Goals
 
