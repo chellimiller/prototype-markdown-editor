@@ -13,3 +13,7 @@ h1 {
   color: #4898da;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+markdown-editor {
+  display: block;
+}

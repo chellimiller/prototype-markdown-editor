@@ -49,7 +49,7 @@ const config = {
         test: /\.js$/,
         // This loader processes JavaScript source code with Babel
         use: 'babel-loader',
-        exclude: /node_modules/,
+        exclude: /\.test\.js$/,
       },
       {
         test: /\.css$/,

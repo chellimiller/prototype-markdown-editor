@@ -1,6 +1,9 @@
 // Ensure that the styles from index.css are included.
 import './index.css';
+import './markdown-editor';
 import registerServiceWorker from './registerServiceWorker';
+
+window.addEventListener('load', registerServiceWorker);
 
 /**
  * Retrieve the root element for the app.
@@ -15,7 +18,6 @@ const app = document.getElementById('app');
 const header = document.createElement('h1');
 header.innerText = 'Hello World!';
 
-// Add the header to the app.
-app.appendChild(header);
+const markdownEditor = document.createElement('markdown-editor');
 
-window.addEventListener('load', registerServiceWorker);
+app.append(header, markdownEditor);
